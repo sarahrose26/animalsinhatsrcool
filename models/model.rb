@@ -1,8 +1,8 @@
 def get_animal_pic(animal, hat)
     if animal == "dog"
         if hat == "partaaay"
-            test = %{<script type="text/javascript" src="//books.google.com/books/previewlib.js"></script><script type="text/javascript">GBS_insertEmbeddedViewer('ISBN:0738531367',600,500);</script>}
-            #animal_img = "http://www.thepetmatchmaker.com/wp-content/uploads/2014/09/9-dog-in-party-hat-1.jpg"
+            #test = %{<script type="text/javascript" src="//books.google.com/books/previewlib.js"></script><script type="text/javascript">GBS_insertEmbeddedViewer('ISBN:0738531367',600,500);</script>}
+            animal_img = "http://www.thepetmatchmaker.com/wp-content/uploads/2014/09/9-dog-in-party-hat-1.jpg"
         elsif hat == "fancy-pants"
             animal_img = "http://68.media.tumblr.com/a34cb35fe92a1685b3d2cbd884e1fb52/tumblr_mzeky3oJRP1r7x2apo1_1280.jpg"
         elsif hat == "small"
@@ -20,6 +20,6 @@ def get_animal_pic(animal, hat)
     end
             
             
-    return test
-    #return animal_img
+    #return test
+    return animal_img
 end
